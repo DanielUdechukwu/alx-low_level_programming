@@ -6,10 +6,11 @@
  * Return: Always 0 (Success)
  */
 
-int main(void){
-	char myFirstProgram[] = "\"Programing is like building a multilingual puzzle\n";
+int main(void)
+{
+	char first[] = "\"Programming is like building a multilingual puzzle\n";
 
-	puts(myFirstProgram);
+	puts(first);
 	
 	return (0);
 }
