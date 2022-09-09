@@ -18,4 +18,5 @@ for (big = 'A'; big <= 'Z'; big++)
 	putchar(big);
 }
 putchar ('\n');
+return (0);
 }
