@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdlib.h>
 
 /**
  * main - Entry point
@@ -20,11 +19,9 @@ int a, b;
 					if (a == 8 && b == 9)
 						continue;
 
-
 					putchar(',');
 					putchar(' ');
 				}
-
 		}
 putchar('\n');
 return (0);
