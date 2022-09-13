@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
- * main - Printing char parameters with loops.
+ * main - _putchar string parameter
  *
- * Return: Always 0.
+ * Return: Always 0 for success
  */
-int _putchar(char);
+
 
 int main(void)
 {
 
-	char a[10] = "_putchar";
+	char ch[10] = "_putchar";
 	int i = 0;
 
-	while (a[i] != '\0')
+	while (ch[i] != '\0')
 		{
-		_putchar(a[i]);
+		_putchar(ch[i]);
 		i++;
 		}
 	_putchar('\n');
