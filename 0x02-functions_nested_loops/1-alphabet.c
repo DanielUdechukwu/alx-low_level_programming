@@ -1,15 +1,21 @@
-#include <stdio.h>
-#include "alphabet.c"
-#include "main.h"
+#include <unistd.h>
+#include "_putchar.c"
+
 
 /**
- * main - Prints alpha
+ * print_alphabet - Prints alphabet
  *
  * Return: Always 0.
  */
 
-int main(void)
+
+void print_alphabet(void)
 {
-	print_alphabet();
-	return (0);
+	int alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		_putchar(alpha);
+	}
+_putchar('\n');
 }
