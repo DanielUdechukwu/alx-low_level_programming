@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include "_putchar.c"
 #include "main.h"
 
 /**
@@ -7,10 +5,7 @@
  *
  * Return: Always 0.
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
+int _putchar(char);
 
 int main(void)
 {
