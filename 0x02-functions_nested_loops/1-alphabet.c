@@ -2,35 +2,31 @@
 #include "_putchar.c"
 #include "main.h"
 
-void print_alphabet(void);
+/**
+ * print_alphabet - Prints
+ *
+ * Return: Always 0.
+ */
+
+void print_alphabet(void)
+{
+	int alpha;
+
+	for (alpha = 'a'; alpha <= 'z'; alpha++)
+	{
+		_putchar(alpha);
+	}
+_putchar('\n');
+}
 
 /**
- * main - Description
+ * main - Prints alpha
  *
  * Return: Always 0.
  */
 
 int main(void)
 {
-char alpha;
-
-/**
- * print_alphabet - Alphabet
- *
- * Return: Always 0.
- */
-
-char print_alphabet(void)
-	{
-		for (alpha = 'a'; alpha <= 'z'; alpha++)
-		{
-			_putchar(alpha);
-		}
-	_putchar('\n');
-
-	}
-
-return (0);
+	print_alphabet();
+	return (0);
 }
-
-
