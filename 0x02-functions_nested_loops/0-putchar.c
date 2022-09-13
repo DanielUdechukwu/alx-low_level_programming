@@ -11,10 +11,6 @@
 
 int main(void)
 {
-	/*
-	 * char c[8] = "_putchar";
-	 * _putchar(c[8]);
-	*/
 
 	char a[10] = "_putchar";
 	int i = 0;
@@ -24,7 +20,7 @@ int main(void)
 		_putchar(a[i]);
 		i++;
 		}
-	_putchar('\n');
+	putchar('\n');
 	return (0);
 
 }
