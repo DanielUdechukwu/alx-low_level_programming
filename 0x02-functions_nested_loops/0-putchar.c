@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
- * main - Printing with loops
- * 
+ * main - Printing char parameters with loops.
+ *
  * Return: Always 0.
  */
 int _putchar(char);
