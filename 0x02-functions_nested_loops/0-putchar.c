@@ -7,7 +7,7 @@
  *
  * Return: Always 0.
  */
-char _putchar();
+int _putchar(char c);
 
 int main(void)
 {
