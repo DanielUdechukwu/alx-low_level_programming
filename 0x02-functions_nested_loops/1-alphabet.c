@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "_putchar.c"
 #include "alphabet.c"
 #include "main.h"
 
