@@ -7,7 +7,7 @@
  *
  * Return: Always 0.
  */
-
+int _putchar();
 
 int main(void)
 {
@@ -20,7 +20,7 @@ int main(void)
 		_putchar(a[i]);
 		i++;
 		}
-	putchar('\n');
+	_putchar('\n');
 	return (0);
 
 }
