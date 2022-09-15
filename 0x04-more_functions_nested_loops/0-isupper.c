@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * _isupper - Checking for uppercase
+ * @c: first integer
  *
  * Return: Always 1 if uppercase
  */
