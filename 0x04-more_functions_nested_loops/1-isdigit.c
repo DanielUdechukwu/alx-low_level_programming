@@ -3,7 +3,7 @@
 
 /**
  * _isdigit - Checking if c is input
- * 
+ * @c: first integer
  * Return: 1 if output is a number
  */
 
