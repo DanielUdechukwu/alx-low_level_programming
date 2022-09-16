@@ -9,7 +9,6 @@
 int main(void)
 {
 	int i;
-	int b = i % 3;
 
 	for (i = 1; i <= 100; i++)
 	{
