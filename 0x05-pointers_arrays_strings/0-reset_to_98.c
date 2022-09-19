@@ -2,6 +2,7 @@
 
 /**
  * reset_to_98 - Function that resets var n to another value using pointers
+ * @m: First parameter
  *
  * Return: Always 0.
  */
