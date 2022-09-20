@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * _puts - function that prints a string, followed by a new line
- * @str: string that's printed
+ * _puts - Function prints a string
+ * @str: String
  *
- * Return: void
+ * Return: Always 0
  */
 void _puts(char *str)
 {
