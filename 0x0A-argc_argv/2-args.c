@@ -2,9 +2,9 @@
 #include <stdlib.h>
 
 /**
- * main - 
- *
- *
+ * main - Prints arguements
+ * @argc: Argument count
+ * @argv: Argument vector
  * Return: Always 0.
  */
 
