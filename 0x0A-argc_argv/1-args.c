@@ -8,17 +8,8 @@
  * Return: Always 0.
  */
 
-int main(int argc, char __attribute__ ((unused)) *argv[])
+int main(int argc, char *argv[] __attribute__ ((unused)))
 {
-	if (argc > 1)
-	{
-		int i, j;
-
-		for (i = 1; i < argc; i++)
-		{
-			j = i;
-		}
-		printf("%d\n", j);
-	}
+	printf("%d\n", argc - 1);
 	return (0);
 }
