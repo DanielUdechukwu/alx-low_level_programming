@@ -10,12 +10,11 @@
 
 int main(int argc, char *argv[])
 {
-	char str[] = "Error";
 	int mul;
 
-	if (argc < 2)
+	if (argc != 3)
 	{
-		printf("%s\n", str);
+		printf("Error\n");
 	}
 	else
 	{
