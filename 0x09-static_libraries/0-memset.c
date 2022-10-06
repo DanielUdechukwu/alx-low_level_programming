@@ -1,19 +1,22 @@
 #include "main.h"
 /**
- * _memset - a function that fills memory with constant bytes
- * @s: location to fill
- * @b: char to fill location with
- * @n: number of bytes to fill
- * Return: returns pointer to location filled
+ * _isupper - A function that checks for uppercase character.
+ * @c: An input character
+ * Return: 1 if c is uppercase or 0 otherwise
  */
-char *_memset(char *s, char b, unsigned int n)
+int _isupper(int c)
 {
-	char *start = s;
+	char uppercase = 'A';
+	int isupper = 0;
 
-	while (n--)
+	for (; uppercase <= 'Z'; uppercase++)
 	{
-		*s = b;
-		s++;
+		if (c == uppercase)
+		{
+			isupper = 1;
+			break;
+		}
 	}
-	return (start);
+
+	return (isupper);
 }
