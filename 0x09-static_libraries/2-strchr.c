@@ -1,14 +1,21 @@
 #include "main.h"
+#include <stdio.h>
 /**
- * _strlen -  a function that returns the length of a string.
- * @s: An input string
- * Return: Nothing
+ * _strchr - a function that locates a character in a string.
+ * @s: an input string to search in
+ * @c: an input character to locate into string s
+ * Return: returns pointer to c position
  */
-int _strlen(char *s)
+char *_strchr(char *s, char c)
 {
-	int len = 0;
 
-	while (s[len] != '\0')
-		len++;
-	return (len);
+	while (*s)
+	{
+		if (c == *s)
+			return (s);
+		s++;
+	}
+	if (c == *s)
+		return (s);
+	return (NULL);
 }
